@@ -9,7 +9,6 @@ public class RockPaperScissor {
 		System.out.println("1.가위 2.바위 3.보!");
 		int user = scanner.nextInt();
 		int computer = random.nextInt(3)+1;
-		int score = 0;
 		System.out.println(computer);
 		switch(computer) {
 		case 1 : 
