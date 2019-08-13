@@ -6,7 +6,7 @@ public class Print5Times {
 		Scanner scanner = new Scanner(System.in);
 		
 		while(true) {
-			System.out.println("진행 1, 스톱0");
+			System.out.println("0.종료, 1.계산기, 2.달력");
 			int flag = scanner.nextInt();
 			switch(flag) {
 			case 0:
