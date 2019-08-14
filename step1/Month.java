@@ -7,7 +7,6 @@ public class Month {
 	public static void main(String[] args) {
 		Date today = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-		//String.format("%s", "안녕")
 		String now = sdf.format(today);
 		
 		String eval = "";
