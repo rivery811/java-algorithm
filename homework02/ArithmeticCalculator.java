@@ -4,7 +4,6 @@ public class ArithmeticCalculator {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("1. 덧셈, 2. 뺄셈, 3. 곱셉, 4.나눗셈");
 		int choice = scanner.nextInt();
 		String dap ="";
 		switch (choice) {

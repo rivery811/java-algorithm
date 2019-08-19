@@ -12,22 +12,20 @@ public class BMI {
 		double height = scanner.nextDouble()/100;
 		double bmi = weight/(height*height);
 		System.out.println(bmi);
-		bmi = bmi*100;
-		bmi = Math.round(bmi)/100;
-		System.out.println(bmi);
-		
+
+		String dap="";
 		if(bmi>30.0) {
-			System.out.println("고도비만");
+			dap="고도비만";
 		}else if(bmi>25.0) {
-			System.out.println("비만");
+			dap="비만";
 		}else if(bmi>23.0) {
-			System.out.println("과체중");
+			dap="과체중";
 		}else if(bmi>18.5) {
-			System.out.println("정상");
+		   dap="정상";
 		}else {
-			System.out.println("저체중");
+			dap="저체중";
 		}
-		
+		System.out.println(dap);
 
 	}
 
